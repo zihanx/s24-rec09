@@ -8,7 +8,7 @@ React is a declarative, efficient, and flexible JavaScript library for building 
 - [ ] Extend the Quiz component to record user choices and display the total score of the selected options when the "Submit" button is pressed
 
 ## Instructions
-Clone the Quiz App repository from: https://github.com/CMU-17-214/f22-rec09 and run
+Clone the Quiz App repository from: https://github.com/CMU-17-214/f23-rec09 and run
 
 ```
 npm install
