@@ -1,15 +1,16 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import Quiz from './components/Quiz.tsx'
 
-class App extends Component {
-  render (): React.ReactNode {
-    return (
-      <div className='App'>
-        <h1>My React Quiz</h1>
-        <Quiz />
-      </div>
-    )
-  }
+const App: React.FC = () => {
+  const [count, setCount] = useState<number>(0);
+
+  return (
+    <div className='App'>
+      <h1>My React Quiz</h1>
+      <Quiz />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
