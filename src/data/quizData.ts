@@ -8,11 +8,11 @@ const quizData: QuizQuestion[] = [
   },
   {
     question: "What add behavior to an individual object, dynamically, without affecting the behavior of other objects from the same class?",
-    options: ["Mars", "Decorator", "Facade", "Strategy"],
+    options: ["Adapter", "Decorator", "Facade", "Strategy"],
     correctAnswer: "Decorator",
   },
   {
-    question: "Which patteen enables selecting an algorithm at runtime by providing a corresponding object implementing the algorithm?",
+    question: "Which pattern enables selecting an algorithm at runtime by providing a corresponding object implementing the algorithm?",
     options: ["Adapter", "Iterator", "Strategy", "Composite"],
     correctAnswer: "Strategy",
   },
