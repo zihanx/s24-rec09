@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import './Quiz.css'
 import QuizQuestion from '../core/QuizQuestion';
 
